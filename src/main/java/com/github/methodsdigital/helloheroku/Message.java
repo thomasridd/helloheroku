@@ -1,4 +1,4 @@
-package com.github.davidcarboni.hellojava;
+package com.github.methodsdigital.helloheroku;
 
 import java.util.List;
 
