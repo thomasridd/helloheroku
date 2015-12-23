@@ -49,11 +49,13 @@ public class Rest {
 
         if (result == null) {
 
-            message.message = "No message provided";
+            result = new Message();
 
-            message.greetings = new ArrayList<>();
-            message.greetings.add("Try posting a message");
-            message.greetings.add("{message:\"Hello, world!\", greetings: [\"Ho ho ho!\", \"Simple REST rocks\"]}");
+            result.message = "No message provided";
+
+            result.greetings = new ArrayList<>();
+            result.greetings.add("Try posting a message");
+            result.greetings.add("{message:\"Hello, world!\"}");
         }
 
         return result;
